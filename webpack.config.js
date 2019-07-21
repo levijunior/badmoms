@@ -60,10 +60,10 @@ const config = {
             options: {
               mozjpeg: {
                 progressive: true,
-                quality: 65,
+                quality: 90,
               },
               pngquant: {
-                quality: '65-90',
+                quality: '80-100',
                 speed: 4,
               },
               gifsicle: {
@@ -76,6 +76,12 @@ const config = {
           },
         ],
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          'file-loader'
+        ]
+      }
     ],
   },
   plugins: [
