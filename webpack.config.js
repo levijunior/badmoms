@@ -102,7 +102,9 @@ const config = {
       chunkFilename: 'css/[id].css',
     }),
     new PurgecssPlugin({
-      paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true }),
+      paths: glob.sync(`${PATHS.src}/**/*`, 
+      { nodir: true }),
+      whitelistPatternsChildren: [/slick/]
     }),
     new webpack.HashedModuleIdsPlugin(),
     new PreloadWebpackPlugin({
