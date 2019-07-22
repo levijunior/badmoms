@@ -82,11 +82,12 @@
     .extras {
       margin-bottom: em(70px);
 
-      .slick-list{
-      }
-
       .slick-slide {
         padding-right: 50px;
+
+        @media (max-width: 767px) {
+          padding-right: 25px;
+        }
       }
       
       &-carousel_item {
@@ -130,8 +131,10 @@
     .actors {
       margin-bottom: em(40px);
       padding-left: 65px;
+
       @media (max-width: 767px) {
         padding-left: 15px;
+        margin-bottom: 0;
       }
 
       .slick-list{
@@ -190,7 +193,7 @@ footer.footer {
   font-family: 'SFUIText', sans-serif;
 
   @media (max-width: 767px) {
-    padding-left: 15px;
+    padding: 30px 15px;
   }
   
   h2 {

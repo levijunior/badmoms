@@ -1,9 +1,10 @@
 import 'bootstrap';
-
 import '../scss/index.scss';
-
 import 'slick-carousel';
 
+$('.menu-icon').on('click', function(){
+  $('.nav').toggle();
+})
 
 $(".category-carousel").slick({
   infinite: false,
@@ -43,14 +44,14 @@ $(".category-carousel").slick({
     {
       breakpoint: 960,
       settings: {
-        slidesToShow: 3.2,
+        slidesToShow: 4.2,
         slidesToScroll: 4,
       }
     },
     {
       breakpoint: 750,
       settings: {
-        slidesToShow: 2.2,
+        slidesToShow: 3.2,
         slidesToScroll: 3,
       }
     },
