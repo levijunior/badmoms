@@ -25,7 +25,3 @@ $ npm run build
 ```
 $ npm run deploy
 ```
-
-## License
-
-MIT © [xxhomey19](https://github.com/xxhomey19)
