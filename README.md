@@ -3,8 +3,8 @@
 Let's go!
 
 ```
-$ git clone https://github.com/levijunior/webpack-starter.git
-$ cd bootstrap-webpack-jquery-boilerplate
+$ git clone https://github.com/levijunior/badmoms.git
+$ cd badmoms
 $ yarn // or npm install
 ```
 
