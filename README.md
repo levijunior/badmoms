@@ -23,6 +23,3 @@ Build for production.
 ```
 $ npm run build
 ```
-```
-$ npm run deploy
-```
